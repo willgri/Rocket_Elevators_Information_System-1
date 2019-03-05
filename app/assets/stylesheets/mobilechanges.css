@@ -1,0 +1,281 @@
+/** this will change the style depending on whether the site is viewed mobile */
+/* adjust the size and placement of the elements once the width gets to each point
+
+finally all elemnts are visible on the quote page even at lowest device size !!!
+*/
+@media screen and (max-width: 1024px){
+    /*HOME PAGE */
+    #button-getquote{
+        margin-left: 10px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    #button-getquote{
+        margin-left: 60px !important;
+    }
+}
+
+
+@media screen and (max-width: 841px){
+    /* QUOTE PAGE */
+    #selection-residential, #selection-corporate, #selection-hybrid, #selection-commercial, #radio-standard, #radio-premium, #radio-excelium {
+        font-size: 20px !important;
+        line-height: 26px !important;
+        margin-left: 0px !important;
+      }
+      #quote-total-display{
+        top:150px;
+      }
+
+
+      /* HOME PAGE*/
+
+
+
+
+}
+@media screen and (max-width: 679px){
+    /* QUOTES */
+    #selection-residential, #selection-corporate, #selection-hybrid, #selection-commercial,#radio-standard, #radio-premium, #radio-excelium {
+        font-size: 18px !important;
+        line-height: 22px !important;
+        margin-left: 0px !important;
+      }
+      #resultsString-price {
+        color:rgb(85, 85, 85);
+        font-size:18px !important;
+    }
+    #resultsString-shafts {
+        color:rgb(151, 151, 151);
+        font-size:12px !important;
+    }
+    #resultsString-unitprice{
+        font-size:12px !important;
+    }
+    #resultsString-installfee{
+        font-size:12px !important;
+    }
+    #quote-background{
+        height: 500px;
+    }
+
+}
+@media screen and (max-width: 666px){
+    /* QUOTE PAGE */
+    #selection-residential, #selection-corporate, #selection-hybrid, #selection-commercial,#radio-standard, #radio-premium, #radio-excelium {
+        font-size: 16px !important;
+        line-height: 30px !important;
+        margin-left: 0px !important;
+      }
+      #quote-total-text{
+          font-size: 16px;
+      }
+      #resultsString-price {
+        color:rgb(85, 85, 85);
+        font-size:16px !important;
+    }
+    #resultsString-shafts {
+        color:rgb(151, 151, 151);
+        font-size:12px !important;
+    }
+    #resultsString-unitprice{
+        font-size:12px !important;
+    }
+    #resultsString-installfee{
+        font-size:12px !important;
+    }
+
+}
+
+@media screen and (max-width: 655px){
+    /* QUOTE PAGE */
+    #quote-total-text{
+        font-size: 12px;
+    }
+      #resultsString-price {
+        color:rgb(85, 85, 85);
+        font-size:12px !important;
+    }
+    #resultsString-shafts {
+        color:rgb(151, 151, 151);
+        font-size:12px !important;
+    }
+    #resultsString-unitprice{
+        font-size:12px !important;
+    }
+    #resultsString-installfee{
+        font-size:12px !important;
+    }
+    #quote-background{
+        height: 500px !important;
+    }
+    #quote-total-display{
+        top:360px !important;
+        left:40% !important;
+    }
+
+}
+@media screen and (max-width: 575px){
+    /* QUOTE PAGE */
+    #quote-total-text{
+        font-size: 12px;
+    }
+      #resultsString-price {
+        color:rgb(255, 255, 255);
+        font-size:12px;
+    }
+    #resultsString-shafts {
+        color:rgb(255, 255, 255);
+        font-size:12px;
+    }
+    #resultsString-unitprice{
+        color:white !important;
+    }
+    #resultsString-installfee{
+        color:white !important;
+    }
+   
+    #quote-background{
+        height: 800px !important;
+    }
+    #quote-total-display{
+        top:95px !important;
+        left:55% !important;
+    }
+    .short-line {
+        width: 25% !important;
+    }
+    #quote-top-title{
+        font-size:20px !important;
+    }
+    #quote-top-caption{
+        font-size: 12px !important;
+    }
+
+    /* HOME PAGE */
+    #button-getquote{
+        margin-left: 100px !important;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px){
+    /* QUOTE PAGE */
+    #quote-top-caption{
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 419px){
+    /* QUOTE PAGE */
+    #quote-total-text{
+        font-size: 12px;
+    }
+      #resultsString-price {
+        color:rgb(255, 255, 255);
+        font-size:12px;
+    }
+    #resultsString-shafts {
+        color:rgb(255, 255, 255);
+        font-size:12px;
+    }
+    #resultsString-unitprice{
+    
+        font-size:12px;
+    }
+    #resultsString-installfee{
+        font-size:12px;
+    }
+    #quote-background{
+        height: 800px !important;
+    }
+    #quote-total-display{
+        top:80px !important;
+        left:55% !important;
+    }
+    .quote-field .quote-label{
+        font-size:12px;
+        color: darkgrey;
+    }
+    /*The quote-form is the input field itself */
+    .quote-field .quote-form{
+        color: black;
+        border: 1px solid black;
+        padding:0px !important;
+        font-size: 16px !important;
+        background: rgb(80, 80, 80);
+        width: 40px !important;
+    }
+    /*This displays below the input field, invisible by default */
+    .quote-field .quote-error{
+        visibility: hidden;
+        font-size:12px;
+    }
+    #quote-top-title{
+        font-size:14px !important;
+    }
+    #quote-top-caption{
+        font-size: 10px !important;
+    }
+
+}
+@media screen and (max-width: 419px){
+    .short-line {
+        width: 15% !important;
+    }
+    #small-row{
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .short-line {
+        width: 15% !important;
+    }
+    #small-row{
+        width: 70% !important;
+    }
+}
+
+
+
+
+/* @media screen and (max-width: 500px) {
+    #selection-residential, #selection-corporate, #selection-hybrid, #selection-commercial {
+      font-size: 14px !important;
+      line-height: 14px !important;
+      margin-left: 0px !important;
+      left:50% !important;
+      width: 50% !important;
+    }
+    #quote-total-display {
+        width: 20px; top:70px !important; left:70% !important;
+        font-size: 14px !important;
+    }
+    #quote-total-display .quote-total-text, .quote-total-result {
+        font-size: 14px !important;
+    }
+    #form-holder{
+        width: 100% !important;
+    }
+    .quote-field .quote-form{
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .quote-field .quote-label {
+        font-size: 10px !important;
+    }
+    .rocket-radio{
+        margin-left:10px !important;
+        font-size: 12px !important;
+    }
+    #quote-background {
+        height: 600px !important;
+    }
+    .radio-buttons {
+        width: 300px !important;
+    }
+  } */
