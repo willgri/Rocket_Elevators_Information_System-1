@@ -16,8 +16,13 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require_tree .
 //= require scripts
 //= require rocket_elevators
+//= require revolution_slider
 //= require jquery.themepunch.revolution.min
 //= require jquery.themepunch.tools.min
-//= require_tree .
+//= require owl.carousel
+//= require jquery.nav.min
+//= require smoothscroll
+
